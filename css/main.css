@@ -1,0 +1,42 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+body {
+	padding: 5em 0;
+}
+
+
+.container {
+	width: 40em;
+}
+
+small {
+	font-size: 75%;
+	color: #777;
+}
+
+
+::-webkit-input-placeholder {
+   color: #999;
+   font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #999;
+   font-style: italic;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #999;
+   font-style: italic;
+}
+
+:-ms-input-placeholder {  
+   color: #999;
+   font-style: italic;
+}
